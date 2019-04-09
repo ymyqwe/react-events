@@ -19,6 +19,10 @@ class App extends Component {
           >
             Learn React
           </a>
+          <div onClick={(e) => {
+            debugger;
+            console.log(e)
+          }}>click events</div>
         </header>
       </div>
     );
